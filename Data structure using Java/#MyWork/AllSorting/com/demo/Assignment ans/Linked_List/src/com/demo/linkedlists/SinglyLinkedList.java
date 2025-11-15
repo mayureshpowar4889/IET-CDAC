@@ -188,14 +188,14 @@ public class SinglyLinkedList {
 
 
 
-		// 2. Delete All Prime Numbers
+		// 2. Delete All Prime Numbers---------------------------------------
 	    public void deleteAllPrimes() {
 	        if (head == null) {
 	            System.out.println("List is empty!");
 	            return;
 	        }
 
-	        // Delete from head---------------------------------------
+	        // Delete from head
 	        while (head != null && isPrime(head.data)) {
 	            head = head.next;
 	        }
@@ -213,7 +213,8 @@ public class SinglyLinkedList {
 	        }
 	        System.out.println("All Prime Numbers Deleted!");
 	    }
-
+	
+		//isprime
 	    private boolean isPrime(int n) {
 	        if (n <= 1) {
 	        	return false;           
@@ -289,3 +290,4 @@ public class SinglyLinkedList {
 		
 		
 		
+
