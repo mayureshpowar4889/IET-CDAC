@@ -1,0 +1,50 @@
+Servlet Jsp --Core Java 
+
+Configuration ----
+
+Application 
+
+
+Client   Data   Server 
+
+Core Scanner 
+Web   request.getParameter 
+
+Framework  --- 50%  
+
+Business Logic  
+
+Hibernate JDBC  
+
+Spring  ---   web.xml 
+		spring-servlet.xml
+	.properties 
+	Annotations 
+
+
+
+SpringBoot --- Spring with min Configuration 
+
+properties file and annotations 
+
+
+
+starter package 
+
+db connection   url un pd driver 
+
+sPRINGBoot MVC ---- View  html / jsp 
+
+Spring Rest API no specific view 
+
+		JSON --- POSTMAN 
+
+
+
+
+
+
+
+
+
+
